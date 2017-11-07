@@ -22,7 +22,7 @@ jobs:
       - run:
           name: automated
           command: |
-           yarn install -g leetcode-cli
+           yarn global add leetcode-cli
            leetcode user -l << EOF
            ${USER}
            ${PASSWORD}
