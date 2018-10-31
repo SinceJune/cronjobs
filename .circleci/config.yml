@@ -13,6 +13,7 @@ jobs:
           name: submit code
           command: |
            sudo yarn global add leetcode-cli
+           mkdir -p ~/.lc
            leetcode user -l << EOF
            ${USER}
            ${PASSWORD}
